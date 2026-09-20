@@ -1,0 +1,5 @@
+print("Здравствуйте!")
+steps = int (input ("Шаги"))
+calories = int (input ("Калории"))
+water_ml = int (input ("Вода"))
+sleep_hours = int (input ("Сон"))
