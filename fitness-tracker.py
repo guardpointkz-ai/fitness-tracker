@@ -13,6 +13,12 @@ water_percent = round(water_ml / water_goal * 100, 1)
 steps_percent = round(steps / steps_goal * 100, 1)
 calories_percent = round(calories / calories_goal * 100, 1)
 sleep_hours_percent = round(sleep_hours / sleep_hours_goal * 100, 1)
+if calories_percent > 100:
+    print("Превышение нормы")
+elif calories_percent >= 90:
+    print("Цель почти достигнута")
+else:
+    print("Нужно доесть норму") 
 # Итоговый отчет
 print("==ОТЧЕТ==")
 print(f'''Процент от цели по воде {water_percent}%
